@@ -31,10 +31,9 @@
           <button class="btn btn-outline-primary mt-3">Add</button>
         </div>
         <div class="col-8 container-cards">
-          {% for tarea in tareas %}
+          {% for poke in pokes %}
           <div class="card-todo">
-            <div>{{tarea['nombre']}}</div>
-            <div>{{tarea['descripcion']}}</div>
+            <div>{{poke['name']}}</div>
             <div class="row mt-2 mb-2">
               <div class="col-2">
                 <button class="btn btn-outline-primary">
