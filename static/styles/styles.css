@@ -1,0 +1,34 @@
+.container-cards{
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.card-todo{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+/* Personaliza la barra del scroll vertical */
+::-webkit-scrollbar {
+    width: 12px; /* Ancho de la barra del scroll */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c7d3df; /* Color del botón del scroll */
+    border-radius: 6px; /* Radio de borde del botón del scroll */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #868e96; /* Color del botón del scroll al pasar el ratón por encima */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color de fondo de la barra del scroll */
+}
